@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FORMULAIRE</title>
+</head>
+<body>
+    <div class="fond">
+        <form>
+            <label for="pseudo">Pseudo:</label><br>
+            <input type="text" name="pseudo"><br>
+            <label for="mdp">Mot de passe:</label><br>
+            <input type="password" name="mdp"><br>
+            <label for="Email">Email:</label><br>
+            <input type="text" name="Email"><br>
+            <label for="obj">Objet du message:</label><br>
+            <select id="obj" name="obj">
+                <option value="quest">J’ai une question</option>
+                <option value="suggn">Je fais une suggestion</option>
+                <option value="probl">Je rencontre un problème</option>
+                <option value="Autre">Autre</option>
+            </select><br>
+            <label for="mess">Votre message:</label><br>
+            <input type="text" name="mess"><br>
+            <label for="urg">Niveau d urgence:</label><br>
+            <input type="radio" id="lent" name="urgence" value="lent" checked />
+            <label for="lent">lent</label><br>
+            <input type="radio" id="moy" name="urgence" value="moyen" />
+            <label for="moyen">moyen</label><br>
+            <input type="radio" id="urg" name="urgence" value="urgent" />
+            <label for="urg">urgent</label><br>
+            <input type="checkbox" id="politique" name="politique" value="politique">
+            <label for="politique"> accepter les politiques de confidentialitées</label><br>
+            <input type="submit" name="env"/>
+
+        </form>
+    </div>
+</body>
+</html>
